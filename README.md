@@ -3,10 +3,12 @@ TCP Communication App in C
 
 # Build
 
-$ cd build/
+  cd build/
 
-$ cmake -G "Unix Makefiles" ../
+  cmake -G "Unix Makefiles" ../
 
-$ make 
+  make 
+  
+---
 
 
