@@ -12,10 +12,10 @@ TTCPClient Client = { 0 };
 
 int main(void) {
 
-	printf("\n[ CommApp-Client ]\n");
+    printf("\n[ CommApp-Client ]\n");
 
-	COMMUNICATION_newClient(&Client);
-	Client.init(&Client, PORT, 100, 10);
+    COMMUNICATION_newClient(&Client);
+    Client.init(&Client, PORT, 100, 10);
 
     char req[256] = { 0 };
     char res[256] = { 0 };
@@ -31,6 +31,6 @@ int main(void) {
 
     }
 
-	return 0;
+    return 0;
 }
 
